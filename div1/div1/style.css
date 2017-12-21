@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    width: auto
+}
+h1 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+        background-image: -webkit-gradient(linear, left top, right top,
+        color-stop( 0%, red),
+        color-stop( 14%, orange),
+        color-stop( 28%, yellow),
+        color-stop( 42%, green),
+        color-stop( 56%, blue),
+        color-stop( 70%, indigo),
+        color-stop( 84%, violet),
+        color-stop(100%, red)
+        );
+        -webkit-background-clip:text;
+        color:transparent;
+        
+        -webkit-animation:rainbow 10s linear infinite alternate;
+    }
+    
+    /* firefox全て */
+    .rainbow, x:-moz-any-link, x:default {
+        
+        color:#F00;
+    }
+    
+    /* IE6以外全てのIE */
+    .rainbow { color/**/: #F00; }
+    
+    
+    @-webkit-keyframes rainbow {
+         0% {background-position: 0px 0px;}
+        
+        /* なぜか%指定ができないため1000pxという適当な値を */
+        100% {background-position:1000px 0px;}
+    }
+    .zero {
+    background: skyblue;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .ichi { 
+    background: #141f40;
+    width: 400px;
+    height: 100px;
+    margin: 0px;
+    color: white;
+}
+    .ni { 
+    background: #80bfa8;
+    width: 150px;
+    height: 250px;
+    margin: 0;
+    float: left;
+    color: white;
+}
+    .san {
+    background: #8c2727;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    float: left;
+    color: white;
+}
+    .yon{
+    background: #d98d30;
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    clear: both;
+    color: white
+}

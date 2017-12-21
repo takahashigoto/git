@@ -1,0 +1,173 @@
+  body {
+  width: auto;
+  height: 1500px;
+  background-color: #e3ddbb;
+}
+  .osu1 {
+  text-decoration:none;
+  color: #ffffff;
+  font-weight: bold
+}
+  .osu1:hover {
+  text-decoration:none;
+  color: #fff25f;
+  font-weight: bold;
+}
+  header {
+  width: auto;
+  height: 40px;
+  background-color: #e3ddbb;
+  background-image: url("kadai_01/img/bg.jpg"); 
+  background-position: left top; 
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+  .bigbox {
+  width: 800px;
+  height: 510px;
+  margin: 0 auto;
+  position: relative;
+}
+  .menu{
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  color: #ffffff;
+  background-color: #d875a1;
+  border-radius: 10px;
+}
+  .tag {
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  border-left: 0.5px solid #fff;
+}
+  .menu :first-child{
+  border: none;
+}
+  .hune{
+  width: 800px;
+  /* position: absolute; */
+  bottom: 60px;
+  left: 0;
+  padding:7px;
+  background:#fff;
+  box-shadow: 0px 5px 5px #14141433;
+  box-sizing: border-box;
+}
+  .title{
+  margin: 0 auto;
+  bottom: 0;
+  font-size: 25px;
+  text-align: center;
+}
+  .bigbox2 {
+  width: 800px;
+  height: 330px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+  .bigbox2:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+  .haco1 {
+  width: 600px;
+  height: 330px;
+  float: left;
+}
+  .haco2{
+  width: 200px;
+  height: 330px;
+  float: left;
+  font-size: 14px
+}
+  /* .kobako{
+  width: 600px;
+  height: 140px;
+} */
+  .syasin{
+  width: 170px;
+  padding:5px;
+  background:#fff;
+}
+  .mannnaka{
+  width: 170px;
+  padding:5px;
+  background:#fff;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+  .syasin2 {
+  width: 170px;
+  padding:5px;
+  background:#fff;
+  /* clear: both; */
+}
+  .syasin3 {
+  width: 170px;
+  padding:5px;
+  background:#fff;
+  margin-top: 15px;
+}
+  .mannnaka2 {
+  width: 170px;
+  padding:5px;
+  background:#fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+  .kanada{
+  cursor: help;
+}
+  .kanada:hover img{
+  /* filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7; */
+  width: 180px;
+}
+  .komidashi{
+  height: 50px;
+  width: auto;
+}
+  .komidashi-naka{
+  width: auto;
+  border-left: 5px solid #d875a1;
+  padding-left: 10px;
+  font-size: 18px;
+  display: inline;
+  }
+  .mostu {
+  text-decoration:none;
+  color: #7e4f0e;
+  font-style: italic;
+}
+  .mostu:hover {
+  color: skyblue;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+  .saigo{
+  text-align: center;
+  /* background: #b3df68; */
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+  .saigo p{
+  width: 120px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 340px;
+  background-color: #44a3cb;
+  border: 2px solid #fff;
+  background-color: #44a3cb;
+  box-shadow: 0 0 0 4px #44a3cb;
+  color: #ffffff;
+  padding: 6px;
+}

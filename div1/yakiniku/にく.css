@@ -1,0 +1,79 @@
+    body{
+    margin: 0 auto;
+    width: 400px;
+    color: white;
+}   
+    div {
+    color: white
+}
+.bigbox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.m-oya {
+    font-size: 0;
+    margin-left: 150px;
+    }
+.m-oya :first-child{
+    border-right: none;
+}
+    .m-oya :last-child{
+    border-left: none;
+}
+    .m-ko {
+    background-color: #ce41c7;
+    width: 40px;
+    height: 40px;
+    border: solid 10px white;
+    display: inline-block;
+    margin: 0
+}
+    .ichi { 
+    background: #141f40;
+    width: 400px;
+    height: 100px;
+}
+    .bigbox{
+    width: 400px;
+    height: 200px;
+} 
+    .mint {
+    background: #80bfa8;
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+    .o-oya{
+    margin-left: 20px;
+    }
+    .o-ko{
+
+    /* box-sizing: border-box; */
+
+    background-color: #ff863f;
+    width: 150px;
+    height: 40px;
+    border: solid 5px white;
+    display: block;
+    margin: 5px;
+}
+    .aka{
+    background: #8c2727;
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+    .aka:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+    .orange{
+    background: #d98d30;
+    width: 400px;
+    height: 100px;
+}
+positionを使う
+座標(top left)を使う
+box-sizingを使う
