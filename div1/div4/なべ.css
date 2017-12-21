@@ -121,6 +121,7 @@
   margin-top: 15px;
 }
   .kanada{
+  text-decoration: none;
   cursor: help;
 }
   .kanada:hover img{
